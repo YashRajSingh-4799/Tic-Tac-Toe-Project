@@ -56,6 +56,8 @@ window.addEventListener('DOMContentLoaded', () => {
                 announcer.innerText = 'Tie';
             }
         announcer.classList.remove('hide');
+
+        
     };
 
 
@@ -116,5 +118,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     resetButton.addEventListener('click', resetBoard);
 
+    
     
   });
