@@ -24,9 +24,14 @@
 }
 
 .playerX {
-    color: #09C372;
+    color: #ff0000;
+    
 }
 
 .playerO {
     color: #498AFB;
+}
+
+.center{
+    text-align: center;
 }
