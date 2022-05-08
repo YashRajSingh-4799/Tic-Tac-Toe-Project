@@ -10,21 +10,26 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
     <script src="./index.js"></script>
+    <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
   </head>
   <body>
 
     
-    <main class="background">
-      <section class="center title">
+    <main  class="title background">
+      
+      <div class="center">
         <h1>Tic Tac Toe</h1>
-      </section>
+      </div>
       <br>
-      <section class="display center">
+      <div class="display center">
         <h1>Player <span class="display-player playerX">X</span>'s turn</h1>
-      </section>
+      </div>
       <br>
       <br>
-      <section class="container">
+      <div class="container">
         <div class="tile"></div>
         <div class="tile"></div>
         <div class="tile"></div>
@@ -34,15 +39,21 @@
         <div class="tile"></div>
         <div class="tile"></div>
         <div class="tile"></div>
-      </section>
+      </div>
       <br>
       <br>
-      <section class="center display announcer hide"></section>
+      <div class="center display announcer hide"></div>
       <br>
       <br>
-      <section class="center controls">
+      <div class="center controls">
         <button class="button" id="reset">Reset</button>
-      </section>
+      </div>
     </main>
+
+    <!-- <script src="particles.js"></script>
+<script src="js/app.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
